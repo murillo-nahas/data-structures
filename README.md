@@ -7,7 +7,7 @@ Mostly written in Typescript, feel free to add new content.
 ## Table of contents
 ### Structures implementeds:
 
-- [ ] Big O
+- [x] Big O
 - [ ] Arrays
 - [ ] Graphs
 - [ ] Linked Lists
