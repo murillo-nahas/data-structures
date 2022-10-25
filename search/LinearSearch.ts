@@ -4,7 +4,7 @@ function linearSearch(haystack: number[], needle: number): any {
     for(let i = 0; i < haystack.length; i++) {
 
         if(haystack[i] === needle) {
-            return needle;
+            return i;
         } else {
             return false;
         }

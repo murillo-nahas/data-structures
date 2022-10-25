@@ -33,3 +33,19 @@ Check these links to understand more about Linear Search.
 - [Geeks for Geeks](https://www.geeksforgeeks.org/linear-search/)
 - [Article](https://www.doabledanny.com/linear-search-in-javascript)
 
+## Binary Search
+
+### What is Binary Search?
+
+Binary Search is a search algorithm that finds the position of a target value within a sorted array.
+It compares the target value to the middle of the array and if they are not equal, the half in which the 
+target cannot lie is elimined and the search continues with the remaining half.
+
+![Binary Search](https://media.geeksforgeeks.org/wp-content/uploads/20220309171621/BinarySearch.png)
+
+#### Materials
+Check these links to understand more about Binary Search.
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/binary-search/)
+- [Article](https://www.codeguru.co.in/2020/05/how-to-implement-binary-search-in.html)
