@@ -8,10 +8,15 @@ Mostly written in Typescript, feel free to add new content.
 ### Structures implementeds:
 
 - [x] Big O
-- [ ] Arrays
+- [x] Arrays
 - [ ] Graphs
 - [ ] Linked Lists
 - [ ] Trees
 - [ ] Sort
 - [ ] Recursion
 - [ ] Sort
+
+## Todo
+
+- [ ] Check the EN-US translation.
+- [ ] Create a PT-BR translation.
