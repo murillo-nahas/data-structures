@@ -1,23 +1,30 @@
-export default class Stack<T> {
-  private array: T[] = [];
+interface IStack<T> {
+  push(item: T): void;
+  pop(): T | undefined;
+  peek(): T | undefined;
+  size(): number;
+}
+class Stack<T> implements IStack<T> {
+  private storage: T[] = [];
+
+  constructor(private capacity: number = Infinity) {}
+
+  push(item: T): void {
+    if (this.size() === this.capacity) {
+      throw Error("Stack has reached max capacity, you cannot add more items");
+    }
+    this.storage.push(item);
+  }
 
   pop(): T | undefined {
-    if (this.isEmpty()) throw new Error();
-
-    return this.array.pop();
+    return this.storage.pop();
   }
 
-  push(data: T): void {
-    this.array.push(data);
+  peek(): T | undefined {
+    return this.storage[this.size() - 1];
   }
 
-  peek(): T {
-    if (this.isEmpty()) throw new Error();
-
-    return this.array[this.array.length - 1];
-  }
-
-  isEmpty(): boolean {
-    return this.array.length === 0;
+  size(): number {
+    return this.storage.length;
   }
 }
