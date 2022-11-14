@@ -1,42 +1,24 @@
-export default class Queue<T> {
-  length: number;
-  head?: Node<T>;
-  tail?: Node<T>;
+interface IQueue<T> {
+  enqueue(item: T): void;
+  dequeue(): T | undefined;
+  size(): number;
+}
 
-  constructor() {
-    this.head = this.tail = undefined;
-    this.length = 0;
-  }
+class Queue<T> implements IQueue<T> {
+  private storage: T[] = [];
+
+  constructor(private capacity: number = Infinity) {}
 
   enqueue(item: T): void {
-    const node = { value: item } as Node<T>;
-
-    this.length++;
-    if (!this.tail) {
-      this.tail = this.head = node;
-      return;
+    if (this.size() === this.capacity) {
+      throw Error("Queue has reached max capacity, you cannot add more items");
     }
-
-    this.tail.next = node;
-    this.tail = node;
+    this.storage.push(item);
   }
-
-  deque(): T | undefined {
-    if (!this.head) {
-      return undefined;
-    }
-
-    this.length--;
-
-    const head = this.head;
-    this.head = this.head.next;
-
-    head.next = undefined;
-
-    return head.value;
+  dequeue(): T | undefined {
+    return this.storage.shift();
   }
-
-  peek(): T | undefined {
-    return this.head?.value;
+  size(): number {
+    return this.storage.length;
   }
 }
