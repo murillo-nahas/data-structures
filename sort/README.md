@@ -40,3 +40,24 @@ random access to any element, when you don't know how many items will be in the 
 - [Geeks for Geeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
 - [Blog Article](https://javascript.plainenglish.io/build-a-linked-list-in-typescript-78a4414d140e)
 - [Blog Article](https://ricardoborges.dev/data-structures-in-typescript-linked-list)
+
+## Queue
+
+### What is Queue?
+
+A Queue is an elementary data structure, handling items as a FIFO
+(first in, first out). The items will be removed from the Queue in the same order they
+were added there. With Queues, we can work with three types of methods, described below:
+
+- enqueue: adds an item to the queue
+- dequeue: removes an item from the queue
+- size: returns the size of the queue
+
+### When to use?
+
+We can use Queue when things don't have to be processed immediately, but have to be used as a FIFO order.
+
+#### Materials
+
+- [Dev.to Article](https://dev.to/glebirovich/typescript-data-structures-stack-and-queue-hld#queue)
+- [Blog Article](https://javascript.plainenglish.io/how-to-make-a-queue-in-typescript-b56416970670)
