@@ -61,3 +61,22 @@ We can use Queue when things don't have to be processed immediately, but have to
 
 - [Dev.to Article](https://dev.to/glebirovich/typescript-data-structures-stack-and-queue-hld#queue)
 - [Blog Article](https://javascript.plainenglish.io/how-to-make-a-queue-in-typescript-b56416970670)
+
+## Stack
+
+### What is Stack?
+
+Stack can be described as similar as Queue. But, instead of FIFO pattern, with Stack, we have to use
+the LIFO pattern, (last in, first out). Stacks usually have the following methods:
+
+- push: adds an item to the stack
+- pop: return and remove the last item added to the stack.
+- peek: returns the last added item without removing it from the stack.
+
+### When to use?
+
+We can use Queue when things don't have to be processed immediately, but have to be used as a LIFO order.
+
+#### Materials
+
+- [Dev.to Article](https://dev.to/glebirovich/typescript-data-structures-stack-and-queue-hld#queue)
