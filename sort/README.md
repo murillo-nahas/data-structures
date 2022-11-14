@@ -20,7 +20,23 @@ Check these links to understand more about Bubble Sort.
 - [Trybe](https://blog.betrybe.com/tecnologia/bubble-sort-tudo-sobre/)
 - [Wikipedia](https://pt.wikipedia.org/wiki/Bubble_sort)
 
-- bubble sort
-- linked list
-- queue
-- stack
+## Linked List
+
+### What is Linked List?
+
+A linked list is a linear data structure, where the elements aren't stored
+in contiguous memory. A linked list consist in nodes where each node has data and points
+to the next node in the list. The first node is called head and the last node is called tail, it's a
+dynamic data structure.
+![Example Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
+
+### When to use?
+
+You can use a Linked List when you need constant time insertions from the list, when you don't need
+random access to any element, when you don't know how many items will be in the list, etc.
+
+#### Materials
+
+- [Geeks for Geeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
+- [Blog Article](https://javascript.plainenglish.io/build-a-linked-list-in-typescript-78a4414d140e)
+- [Blog Article](https://ricardoborges.dev/data-structures-in-typescript-linked-list)
