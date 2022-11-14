@@ -10,11 +10,10 @@ Mostly written in Typescript, feel free to add new content.
 - [x] Big O
 - [x] Arrays
 - [ ] Graphs
-- [ ] Linked Lists
+- [x] Linked Lists
 - [ ] Trees
-- [ ] Sort
+- [x] Sort
 - [ ] Recursion
-- [ ] Sort
 
 ## Todo
 
