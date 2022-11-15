@@ -80,3 +80,22 @@ We can use Queue when things don't have to be processed immediately, but have to
 #### Materials
 
 - [Dev.to Article](https://dev.to/glebirovich/typescript-data-structures-stack-and-queue-hld#queue)
+
+## QuickSort
+
+### What is QuickSort?
+
+QuickSort is a sort algorithm mostly based in partition. So, if we have an array, we choose a pivot number
+and based in this pivot, every number in the left should be less than and every number in the right should be
+greather than the pivot. Imagine we have a simple array: [3, 8, 7, 10, 0, 23, 2, 1, 77, 7] and our pivot is 3. We have to swap the positions to put it in order, until we get the result: [1, 0, 2, 3, 8, 23, 7, 10, 77, 7].
+
+![QuickSort Example](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+
+### When to use?
+
+We can use QuickSort when we want to sort an array that have a defined order.
+
+#### Materials
+
+- [Article](https://joaoarthurbm.github.io/eda/posts/quick-sort/)
+- [Wikipedia](https://pt.wikipedia.org/wiki/Quicksort)
