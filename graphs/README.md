@@ -8,7 +8,8 @@ trees have some more rules.
 
 There are two ways to represent a graph:
 
-- Adjacency Matrix: The graph is stored in the form of the 2D matrix where rows and columns denote vertices.
+- Adjacency Matrix: The graph is stored in the form of the 2D matrix where rows and columns denote vertices. It's easy to program it but it is a bit
+  inefficient in terms of memory.
 - Adjacency List: The graph is represented as a collection of linked lists.
 
 ![Graph Image](https://www.revista-programar.info/wp-content/uploads/2007/09/grafo-exemplo-1-768x460.gif)
@@ -17,6 +18,9 @@ There are two ways to represent a graph:
 
 We can use Graphs when we need to solve complex problems with data relationships, or when we need to
 represent real life problems, like chess movements, computer network, etc.
+
+- Subway lines from big cities uses Graphs to earn time.
+- Post offices uses Graphs to minimize ways to earn time.
 
 #### Materials
 
