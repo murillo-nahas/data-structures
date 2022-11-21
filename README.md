@@ -4,6 +4,8 @@
 
 Repository designed to practice/learn and share some content about data structures and algorithms. <br>
 Mostly written in Typescript, feel free to add new content.
+This repository was inspired by Frontend Master Data Structure and Algorithms course.
+You can see it here: [Click](https://frontendmasters.com/courses/algorithms/)
 
 ## Table of contents
 
