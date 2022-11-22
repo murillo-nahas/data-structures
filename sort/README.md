@@ -2,14 +2,15 @@
 
 ### What is Bubble Sort?
 
-Bubble Sort is a basic algorithm that organizes element in correct order.
+Bubble Sort is a basic algorithm that organizes an element array in correct order.
 The algorithm just checks the elements from left to the right, swapping
-their positions if its not in order.
+their positions if its not in order. It's a very simple algorithm to write and test, you just
+need to comparate two values, and if it is necessary, swap them.
 
 ### When to use?
 
 We can use Bubble Sort algorithm when we want to organize a element list.
-It's like the sort() Javascript function.
+It's like the sort() Javascript built-in function.
 
 ![Bubble Sort](https://lh5.googleusercontent.com/_oLwPF5ZvaZZ4pGD-HvSUSw6nTwwHjUwcLpNigUvb24-PKNwjMUwXcWYWf2wp4HopzHkh9JVmZd_AFYP4HjSYelidbw4FRo1fHrWV3KxbFM13xlRLALb-y-EbLhEmln11lhwEZPV)
 
@@ -26,9 +27,15 @@ Check these links to understand more about Bubble Sort.
 
 A linked list is a linear data structure, where the elements aren't stored
 in contiguous memory. A linked list consist in nodes where each node has data and points
-to the next node in the list. The first node is called head and the last node is called tail, it's a
-dynamic data structure.
+to the next node in the list. The first node is called head and the last node is called tail, and you also
+need to know that Linked Lists are a dynamic data structure, which means: it can grow or shrink in its size.
 ![Example Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
+
+There are three types of linked lists:
+
+- Singly linked list - Each node has only a pointer to the next node.
+- Doubly linked list - Each node has pointers to both the previous and next node.
+- Circular linked list - The last node points to the first element.
 
 ### When to use?
 
@@ -55,7 +62,7 @@ were added there. With Queues, we can work with three types of methods, describe
 
 ### When to use?
 
-We can use Queue when things don't have to be processed immediately, but have to be used as a FIFO order.
+We can use Queue when things doesn't have to be processed immediately, but have to use the FIFO order.
 
 #### Materials
 
@@ -66,7 +73,7 @@ We can use Queue when things don't have to be processed immediately, but have to
 
 ### What is Stack?
 
-Stack can be described as similar as Queue. But, instead of FIFO pattern, with Stack, we have to use
+Stack can be described as very similar as the Queue. But, instead of FIFO pattern, with Stack, we have to use
 the LIFO pattern, (last in, first out). Stacks usually have the following methods:
 
 - push: adds an item to the stack
@@ -75,7 +82,7 @@ the LIFO pattern, (last in, first out). Stacks usually have the following method
 
 ### When to use?
 
-We can use Queue when things don't have to be processed immediately, but have to be used as a LIFO order.
+We can use Queue when things doesn't have to be processed immediately, but have to use the LIFO order.
 
 #### Materials
 
