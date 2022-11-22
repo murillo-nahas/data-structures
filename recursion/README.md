@@ -4,8 +4,8 @@
 
 Recursion can be considered as a repetition proccess of a routine,
 in therms of programming, recursion is when a function keeps calling itself until it get to the result, that
-is an ending condition. It is similar to a for or a while loop, but it's not a for or a while loop, we get the same
-idea tho.
+is a condition to finish the recursion. It is similar to a for or a while loop, even it's not a for or a while loop.
+But we kind of have the same idea here.
 
 ### When to use?
 
