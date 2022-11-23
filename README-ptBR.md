@@ -8,8 +8,8 @@ Acesse por este link: [Click](https://frontendmasters.com/courses/algorithms/)
 
 ## Índice
 
-- 1. Estruturas e Algoritmos
-- 2. A realizar
+- Estruturas e Algoritmos
+- A realizar
 
 ### Estruturas e Algoritmos implementados:
 
@@ -21,7 +21,7 @@ Acesse por este link: [Click](https://frontendmasters.com/courses/algorithms/)
 - [x] Sort
 - [x] Recursão
 
-## 2. A realizar
+### 2. A realizar
 
 - [x] Verificar gramática EN-US.
 - [ ] Criação de uma tradução PT-BR.
