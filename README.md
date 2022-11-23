@@ -7,8 +7,9 @@ You can see it here: [Click](https://frontendmasters.com/courses/algorithms/)
 
 ## Table of contents
 
-- 1. Structures and Algorithms
-- 2. To Do
+- Structures and Algorithms
+- To Do
+
 
 ### 1. Structures and Algorithms implementeds:
 
@@ -20,7 +21,7 @@ You can see it here: [Click](https://frontendmasters.com/courses/algorithms/)
 - [x] Sort
 - [x] Recursion
 
-## 2. To Do
+### 2. To Do
 
 - [x] Check the EN-US translation.
 - [ ] Create a PT-BR translation.
