@@ -8,7 +8,7 @@ of time and space. Usually, Big O is focused on the worst-case scenario, which i
 
 Currently, there are different types of standards that Big O notations includes, as you can see below:
 
-- O(1); constant time.
+- O(1) constant time.
 - O(n) linear time.
 - O(n²^) quadratic time.
 - O(n³^) cubic time.
