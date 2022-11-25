@@ -82,7 +82,7 @@ the LIFO pattern, (last in, first out). Stacks usually have the following method
 
 ### When to use?
 
-We can use Queue when things doesn't have to be processed immediately, but have to use the LIFO order.
+We can use Stack when things doesn't have to be processed immediately, but have to use the LIFO order.
 
 #### Materials
 
