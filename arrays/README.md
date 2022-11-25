@@ -18,13 +18,13 @@ As you can see, we use the Int8Array constuctor to create an array of 8-bit unsi
 
 - Uint8Array: treats each byte as a separated number, with values from 0 to 255.
 
-- Uint8Array: treats each two bits as a integer, with values from 0 to 65535.
+- Uint16Array: treats each two bits as a integer, with values from 0 to 65535.
 
-- Uint8Array: treats each four bytes as a integer, with values from 0 to 4294967295.
+- Uint32Array: treats each four bytes as a integer, with values from 0 to 4294967295.
 
 #### Materials
 
-Check these links to understand more about Big O Notations.
+Check these links to understand more about Arrays.
 
 - [Developer Mozilla Array Buffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
 - [Developer Mozilla Typed Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays)
