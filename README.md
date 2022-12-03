@@ -24,4 +24,4 @@ You can see it here: [Click](https://frontendmasters.com/courses/algorithms/)
 ### 2. To Do
 
 - [x] Check the EN-US translation.
-- [ ] Create a PT-BR translation.
+- [x] Create a PT-BR translation.
